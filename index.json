@@ -1,0 +1,28 @@
+{
+  "indexVersion": 1,
+  "name": "twodogegg plugins",
+  "plugins": [
+    {
+      "key": "runninghub",
+      "name": "RunningHub MiniMax H3",
+      "icon": "text:RH",
+      "website": "https://www.runninghub.cn",
+      "description": {
+        "en": "MiniMax H3 standard and Flash video generation with image, video, and audio references via RunningHub; standard also supports first and last frames",
+        "zh": "通过 RunningHub 生成 MiniMax H3 标准版和 Flash 视频，支持图片、视频和音频参考；标准版另支持首尾帧"
+      },
+      "channelTypes": [61],
+      "models": ["minimax-h3-flash", "minimax-h3-standard"],
+      "latest": "1.8.0",
+      "versions": [
+        {
+          "version": "1.8.0",
+          "path": "runninghub/1.8.0/plugin.js",
+          "sha256": "7cf2f06654dc2ac335300e2dc117082d99a317983f065923b9813d7aa1f84d6b",
+          "kind": "task",
+          "baseUrl": "https://www.runninghub.cn"
+        }
+      ]
+    }
+  ]
+}
