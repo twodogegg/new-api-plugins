@@ -11,10 +11,29 @@
         "en": "MiniMax H3 standard and Flash video generation with image, video, and audio references via RunningHub; standard also supports first and last frames",
         "zh": "通过 RunningHub 生成 MiniMax H3 标准版和 Flash 视频，支持图片、视频和音频参考；标准版另支持首尾帧"
       },
-      "channelTypes": [61],
-      "models": ["minimax-h3-flash", "minimax-h3-standard"],
-      "latest": "1.8.0",
+      "channelTypes": [
+        61
+      ],
+      "models": [
+        "minimax-h3-flash",
+        "minimax-h3-standard"
+      ],
+      "latest": "1.9.0",
       "versions": [
+        {
+          "version": "1.9.0",
+          "path": "runninghub/1.9.0/plugin.js",
+          "sha256": "25bddac490387758333029abdd2cef961e05c351859a9fa53d520113f7876395",
+          "kind": "task",
+          "baseUrl": "https://www.runninghub.cn"
+        },
+        {
+          "version": "1.8.2",
+          "path": "runninghub/1.8.2/plugin.js",
+          "sha256": "aff0cd7331666817db8e35e09ab6deb9960eb859d9dcdff703fa6450175a3870",
+          "kind": "task",
+          "baseUrl": "https://www.runninghub.cn"
+        },
         {
           "version": "1.8.0",
           "path": "runninghub/1.8.0/plugin.js",
