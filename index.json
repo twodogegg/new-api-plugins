@@ -49,6 +49,30 @@
           "baseUrl": "https://www.runninghub.cn"
         }
       ]
+    },
+    {
+      "key": "muse-video",
+      "name": "Muse Video",
+      "icon": "text:Muse",
+      "description": {
+        "en": "Muse text and image to video",
+        "zh": "Muse 文生视频和图生视频"
+      },
+      "channelTypes": [
+        61
+      ],
+      "models": [
+        "muse-video"
+      ],
+      "latest": "1.0.1",
+      "versions": [
+        {
+          "version": "1.0.1",
+          "path": "muse-video/1.0.1/plugin.js",
+          "sha256": "05209fc9f81e94580ad7f11050abb996c169cfc19153b2adb62b5d52dbe67852",
+          "kind": "task"
+        }
+      ]
     }
   ]
 }
