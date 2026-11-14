@@ -80,6 +80,31 @@
           "kind": "task"
         }
       ]
+    },
+    {
+      "key": "local-h3",
+      "name": "Local MiniMax H3",
+      "icon": "text:H3",
+      "description": {
+        "en": "MiniMax H3 video generation against a self-hosted upstream, with continue and second-sampling routes",
+        "zh": "对接自建 MiniMax H3 上游，支持续写与二次采样"
+      },
+      "channelTypes": [
+        61
+      ],
+      "models": [
+        "h3-nsfw",
+        "h3-nsfw-opt"
+      ],
+      "latest": "1.11.0",
+      "versions": [
+        {
+          "version": "1.11.0",
+          "path": "local-h3/1.11.0/plugin.js",
+          "sha256": "ee80c72fef4cbf3c881d65203f812b9653a46bb1899c83a122ae67850d17f790",
+          "kind": "task"
+        }
+      ]
     }
   ]
 }
