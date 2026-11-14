@@ -18,8 +18,15 @@
         "minimax-h3-flash",
         "minimax-h3-standard"
       ],
-      "latest": "1.9.1",
+      "latest": "1.9.2",
       "versions": [
+        {
+          "version": "1.9.2",
+          "path": "runninghub/1.9.2/plugin.js",
+          "sha256": "b1480c1751e0d987d27c447232099a9c6c2e8c8bd3cf17514434e0a471d6eaad",
+          "kind": "task",
+          "baseUrl": "https://www.runninghub.cn"
+        },
         {
           "version": "1.9.1",
           "path": "runninghub/1.9.1/plugin.js",
